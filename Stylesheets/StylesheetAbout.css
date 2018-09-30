@@ -27,12 +27,12 @@ nav .logo
 }
 nav .logo img
 {
-	height: 90px;
+	height: 200px;
 	transition: .5s;
 }
 nav.black .logo img
 {
-	height: 70px;
+	height: 130px;
 }
 nav ul
 {
