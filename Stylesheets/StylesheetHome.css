@@ -27,7 +27,7 @@ nav .logo
 }
 nav .logo img
 {
-	height: 90px;
+	height: 110px;
 	transition: .5s;
 }
 nav.black .logo img
