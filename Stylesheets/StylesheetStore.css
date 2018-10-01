@@ -81,3 +81,7 @@ section.content
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: underline;
 }
+.column {
+    float: left;
+    width: 33.33%;
+}
