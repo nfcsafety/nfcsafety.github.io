@@ -79,5 +79,5 @@ section.content
 	padding: 20px;
 	background-color: white;
 	font-family: 'Ubuntu', sans-serif;
-	text-decoration: none;
+	text-decoration: underline;
 }
