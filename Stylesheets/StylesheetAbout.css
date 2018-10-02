@@ -97,9 +97,10 @@ section.content
 }
 .textbox
 {
-    float: center;
-		width: 900px;
-		padding: 60px;
-		font-family: 'Ubuntu', sans-serif;
-		text-decoration: underline;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	padding: 60px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: underline;
 }
