@@ -69,7 +69,7 @@ nav ul li a:hover
 section.sec1
 {
 	width: 100%;
-	height: 90vh;
+	height: 110vh;
 	background: url(bg.png);
 	background-size: cover;
 }
