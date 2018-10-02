@@ -79,17 +79,27 @@ section.content
 	width: 100%;
 	background-color: white;
 }
-.column1 {
+.column1
+{
     float: left;
-		width: 300px;
+		width: 600px;
 		padding: 10px;
 		font-family: 'Ubuntu', sans-serif;
 		text-decoration: underline;
 }
-.column2 {
+.column2
+{
     float: right;
-    width: 300px;
+    width: 600px;
 		padding: 10px;
+		font-family: 'Ubuntu', sans-serif;
+		text-decoration: underline;
+}
+.textbox
+{
+    float: center;
+		width: 900px;
+		padding: 60px;
 		font-family: 'Ubuntu', sans-serif;
 		text-decoration: underline;
 }
