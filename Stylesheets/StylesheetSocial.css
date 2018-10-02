@@ -70,6 +70,7 @@ section.sec1
 {
 	width: 100%;
 	height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
 	background: url(bg.png);
 	background-size: cover;
 }
