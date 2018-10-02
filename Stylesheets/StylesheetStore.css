@@ -76,10 +76,7 @@ section.sec1
 section.content
 {
 	width: 100%;
-	padding: 20px;
 	background-color: white;
-	font-family: 'Ubuntu', sans-serif;
-	text-decoration: underline;
 }
 .column1 {
     float: left;
