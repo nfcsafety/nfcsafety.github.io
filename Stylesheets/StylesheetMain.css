@@ -120,6 +120,8 @@ section.content
 }
 .buybutton
 {
+border-style: solid;
+border-color: black;
 color: #000000;
 background: #88ff82;
 border-radius: #000000;
@@ -129,4 +131,5 @@ padding: 5px 20px;
 font-family: 'Oswald', sans-serif;
 text-decoration: none;
 text-transform: uppercase;
+text-align: center;
 }
