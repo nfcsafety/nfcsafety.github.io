@@ -104,9 +104,22 @@ section.content
 	text-decoration: none;
 	background-color: white;
 }
-.buybutton
+.buybuttonl
 {
+	float: left;
 		color: #252525;
+		background: #b2e1f7;
+		width: auto;
+		height: auto;
+		padding: 5px 20px;
+		font-family: 'Oswald', sans-serif;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+.buybuttonr
+{
+	float: right;
+		text-color: #252525;
 		background: #b2e1f7;
 		width: auto;
 		height: auto;
