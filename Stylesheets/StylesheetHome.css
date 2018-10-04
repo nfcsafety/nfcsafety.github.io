@@ -103,6 +103,6 @@ section.content
 		padding: 60px;
 		font-family: 'Ubuntu', sans-serif;
 		text-decoration: underline;
-	        vertical-align: initial;
+	        vertical-align: -50%;
 	        background-color: white;
 }
