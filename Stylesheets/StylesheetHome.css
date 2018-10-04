@@ -98,8 +98,8 @@ section.content
 .textbox
 {
                 position: relative;
-		left: auto;
-	        top: auto;
+		left: 200px;
+	        top: 800px;
 		width: 900px;
 		padding: 60px;
 		font-family: 'Ubuntu', sans-serif;
