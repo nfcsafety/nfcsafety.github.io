@@ -97,10 +97,11 @@ section.content
 }
 .textbox
 {
-    margin-left: auto;
+                margin-left: auto;
 		margin-right: auto;
 		width: 900px;
 		padding: 60px;
 		font-family: 'Ubuntu', sans-serif;
 		text-decoration: underline;
+	        vertical-align: middle;
 }
