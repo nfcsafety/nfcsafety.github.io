@@ -110,6 +110,8 @@ section.content
 {
 		color: #252525;
 		background: #b2e1f7;
+		width: auto;
+		height: auto;
 		padding: 5px 20px;
 		font-family: 'Oswald', sans-serif;
 		text-decoration: none;
