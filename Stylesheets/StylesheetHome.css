@@ -99,10 +99,10 @@ section.content
 {
                 margin-left: auto;
 		margin-right: auto;
+	        margin-top: auto;
 		width: 900px;
 		padding: 60px;
 		font-family: 'Ubuntu', sans-serif;
 		text-decoration: underline;
-	        vertical-align: -50%;
 	        background-color: white;
 }
