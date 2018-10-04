@@ -106,3 +106,11 @@ section.content
 	text-decoration: none;
 	background-color: white;
 }
+.buybutton
+{
+		color: #252525;
+		padding: 5px 20px;
+		font-family: 'Oswald', sans-serif;
+		text-decoration: none;
+		text-transform: uppercase;
+}
