@@ -99,7 +99,7 @@ section.content
 {
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: -50%;
 	width: 900px;
 	padding: 60px;
 	font-family: 'Ubuntu', sans-serif;
