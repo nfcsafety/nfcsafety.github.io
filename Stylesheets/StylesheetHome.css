@@ -97,7 +97,7 @@ section.content
 }
 .textbox
 {
-                position: fixed;
+                position: relative;
 		left: auto;
 	        top: auto;
 		width: 900px;
