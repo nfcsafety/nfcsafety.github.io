@@ -97,12 +97,12 @@ section.content
 }
 .textbox
 {
-                position: relative;
-		left: 200px;
-	        top: 800px;
-		width: 900px;
-		padding: 60px;
-		font-family: 'Ubuntu', sans-serif;
-		text-decoration: underline;
-	        background-color: white;
+	position: absolute;
+	left: 200px;
+	top: 800px;
+	width: 900px;
+	padding: 60px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: underline;
+	background-color: white;
 }
