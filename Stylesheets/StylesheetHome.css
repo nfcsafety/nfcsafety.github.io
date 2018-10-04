@@ -97,9 +97,11 @@ section.content
 }
 .textbox
 {
-	float: left;
+	position: absolute;
+	left: 25%;
+	top: 25%;
 	width: 900px;
-	padding: 200px;
+	padding: 20px;
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: underline;
 	background-color: white;
