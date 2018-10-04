@@ -82,16 +82,14 @@ section.content
 .column1
 {
     float: left;
-		width: 600px;
-		padding: 10px;
+		padding: 20px;
 		font-family: 'Ubuntu', sans-serif;
 		text-decoration: underline;
 }
 .column2
 {
     float: right;
-    width: 600px;
-		padding: 10px;
+		padding: 20px;
 		font-family: 'Ubuntu', sans-serif;
 		text-decoration: underline;
 }
