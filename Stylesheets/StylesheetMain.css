@@ -104,27 +104,30 @@ section.content
 	text-decoration: none;
 	background-color: white;
 }
-.buybuttonl
+.buycolumnl
 {
 	float: left;
-		color: #252525;
 		background: #b2e1f7;
 		width: auto;
 		height: auto;
 		padding: 5px 20px;
-		font-family: 'Oswald', sans-serif;
-		text-decoration: none;
-		text-transform: uppercase;
 }
-.buybuttonr
+.buycolumnr
 {
 	float: right;
-		text-color: #252525;
 		background: #b2e1f7;
 		width: auto;
 		height: auto;
 		padding: 5px 20px;
-		font-family: 'Oswald', sans-serif;
-		text-decoration: none;
-		text-transform: uppercase;
+}
+.buybutton
+{
+color: #000000;
+background: #b2e1f7;
+width: auto;
+height: auto;
+padding: 5px 20px;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+text-transform: uppercase;
 }
