@@ -100,7 +100,7 @@ section.content
 	top: 50%;
 	width: 900px;
 	padding: 20px;
-	margin-left: 450px;
+	margin-left: -450px;
 	margin-top: auto;
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
