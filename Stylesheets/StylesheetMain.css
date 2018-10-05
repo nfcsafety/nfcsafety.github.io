@@ -97,9 +97,11 @@ section.content
 {
 	position: absolute;
 	left: 50%;
-	top: 25%;
+	top: 50%;
 	width: 900px;
 	padding: 20px;
+	margin-left: 450px;
+	margin-top: auto;
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
 	background-color: white;
