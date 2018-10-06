@@ -21,7 +21,7 @@ body
 .buycolumnl
 {
 	float: left;
-		width: auto;
+		width: 800px;
 		height: auto;
 		padding: 5px 20px;
 		border-style: solid;
@@ -30,11 +30,15 @@ body
 .buycolumnr
 {
 	float: right;
-		width: auto;
+		width: 800px;
 		height: auto;
 		padding: 5px 20px;
 		border-style: solid;
 		border-color: black;
+}
+.buybutton
+{
+	width: inherit;
 }
 nav
 {
