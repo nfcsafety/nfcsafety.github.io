@@ -19,6 +19,8 @@ nav
 nav .logo
 {
   font-family: 'Bungee', sans-serif;
+	width: 500px;
+	height: 600px;
 	position: absolute;
   left: 80px;
   top: -48px;
