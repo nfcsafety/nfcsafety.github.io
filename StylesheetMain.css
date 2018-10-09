@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu|Russo+One|Bungee');
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+nav
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 10px 70px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+nav .logo
+{
+  font-family: 'Bungee', sans-serif;
+	position: absolute;
+  left: 80px;
+  top: -48px;
+	transition: .5s;
+	color: #2d3359;
+}
+nav.scroll .logo
+{
+  color: white;
+  position: absolute;
+  left: 40px;
+}
+nav.scroll
+{
+  height: 50px;
+  padding: 10px 30px;
+  background: rgb(0, 0, 0, 0.5)
+}
+nav ul
+{
+  float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav ul li
+{
+	list-style: none;
+}
+nav.scroll ul li a
+{
+	color: #fff;
+}
+nav ul li a
+{
+  line-height: 30px;
+	color: #767989;
+	padding: 5px 20px;
+  font-family: 'Russo One', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+}
+nav ul li a.active,
+nav ul li a:hover
+{
+	color: #fff;
+	background: rgb(204, 204, 204, 0.5);
+}
+
+button.hover,
+button.active
+{
+  color: #fff;
+	background: #d2d5db;
+}
+button
+{
+  line-height: 80px;
+	color: #626263;
+	padding: 5px 20px;
+	font-family: 'Russo One', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+}
+section.sec1
+{
+	width: 100%;
+	height: 100vh;
+	background: url(bg.png);
+	background-size: cover;
+}
+section.content
+{
+	width: 100%;
+  padding: 20px;
+	background-color: white;
+}
+div.footerlinks
+{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  background: white;
+  padding: 20px 0px;
+}
+.footericons
+{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.footericons ul
+{
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+}
+.footericons ul li
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #000000;
+}
+.footericons ul li a
+{
+  color: white;
+  font-size: 25px;
+}
+.footericons ul li a i
+{
+  line-height: 50px;
+}
+div.footerlinkcolumnone
+{
+  width: 100%;
+  height: auto;
+}
+.footerlinkcolumnone ul
+{
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.footerlinkcolumnone ul li
+{
+	list-style: none;
+  display: inline-block;
+  width: auto;
+  height: 50px;
+}
+.footerlinkcolumnone ul li a
+{
+  line-height: 30px;
+	color: #626263;
+	padding: 5px 20px;
+  font-family: 'Russo One', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .5s;
+}
+.footerlinkcolumnone ul li a.active,
+.footerlinkcolumnone ul li a:hover
+{
+  color: #fff;
+  background: #d2d5db;
+}
+.copyright
+{
+  position: relative;
+  top: -40px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+.content
+{
+  position: absolute;
+  top: 100px;
+  left: 35px;
+  width: 400px;
+  height: 400px;
+}
+.textbox
+{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 900px;
+	padding: 20px;
+	margin-left: -450px;
+	margin-top: -236px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	background-color: white;
+}
