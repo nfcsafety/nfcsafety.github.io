@@ -34,18 +34,21 @@ nav .logo:hover
 }
 nav a .logo
 {
-  color: #ddfaff;
   transition: .5s;
 }
-nav.scroll a .logo
+nav a.scroll .logo
 {
-  color: white;
   transition: .5s;
 }
 nav.scroll .logo
 {
   position: absolute;
   left: 20px;
+}
+div .logocolor a
+{
+  color: white;
+  text-decoration: none;
 }
 nav.scroll .logo:hover
 {
@@ -231,6 +234,7 @@ div.footerlinkcolumnone
   width: 150px;
   height: 150px;
   float: center;
+  color: white;
 }
 .logoaltfont
 {
