@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu|Russo+One|Bungee');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Ubuntu|Russo+One|Bungee|Permanent+Marker');
 body
 {
   margin: 0;
@@ -18,20 +18,26 @@ nav
 }
 nav .logo
 {
+  position: absolute;
+  left: 60px;
+  top: -70px;
+	transition: 1s;
   font-family: 'Bungee', sans-serif;
-	width: 500px;
-	height: 600px;
-	position: absolute;
-  left: 80px;
-  top: -48px;
-	transition: .5s;
-	color: #2d3359;
+  font-size: 30px;
+  cursor: pointer;
+  color: #ddfaff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 nav.scroll .logo
 {
-  color: white;
   position: absolute;
-  left: 40px;
+  left: 20px;
+  color: white;
+  -webkit-animation: glowscroll 1s ease-in-out infinite alternate;
+  -moz-animation: glowscroll 1s ease-in-out infinite alternate;
+  animation: glowscroll 1s ease-in-out infinite alternate;
 }
 nav.scroll
 {
@@ -188,6 +194,7 @@ div.footerlinkcolumnone
 }
 .textbox
 {
+  float: center;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -198,4 +205,41 @@ div.footerlinkcolumnone
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
 	background-color: white;
+}
+.textsidepos
+{
+  position:absolute;
+  left: 180px;
+  top: 45px;
+}
+.textimg
+{
+  width: 150px;
+  height: 150px;
+  float: center;
+}
+.logoaltfont
+{
+  font-family: 'Permanent Marker', cursive;
+  position: relative;
+  left: 110px;
+  top: -92px;
+}
+@-webkit-keyframes glow
+{
+  from {
+    text-shadow: 0 0 10px #fff;
+  }
+  to {
+    text-shadow: 0 0 30px #d1feff;
+  }
+}
+@-webkit-keyframes glowscroll
+{
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #d1feff;
+  }
 }
