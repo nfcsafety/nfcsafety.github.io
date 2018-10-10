@@ -25,19 +25,33 @@ nav .logo
   font-family: 'Bungee', sans-serif;
   font-size: 30px;
   cursor: pointer;
-  color: #ddfaff;
+}
+nav .logo:hover
+{
   -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
+}
+nav a .logo
+{
+  color: #ddfaff;
+  transition: .5s;
+}
+nav.scroll a .logo
+{
+  color: white;
+  transition: .5s;
 }
 nav.scroll .logo
 {
   position: absolute;
   left: 20px;
-  color: white;
-  -webkit-animation: glowscroll 1s ease-in-out infinite alternate;
-  -moz-animation: glowscroll 1s ease-in-out infinite alternate;
-  animation: glowscroll 1s ease-in-out infinite alternate;
+}
+nav.scroll .logo:hover
+{
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
 nav.scroll
 {
@@ -232,14 +246,5 @@ div.footerlinkcolumnone
   }
   to {
     text-shadow: 0 0 30px #d1feff;
-  }
-}
-@-webkit-keyframes glowscroll
-{
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #d1feff;
   }
 }
