@@ -209,12 +209,13 @@ div.footerlinkcolumnone
   width: 400px;
   height: 400px;
 }
-.textbox
+.whiteboxhome
 {
   float: center;
 	position: absolute;
 	left: 50%;
 	top: 50%;
+  height: 150px;
 	width: 900px;
 	padding: 20px;
 	margin-left: -450px;
@@ -223,10 +224,61 @@ div.footerlinkcolumnone
 	text-decoration: none;
 	background-color: white;
 }
+.whiteboxabout
+{
+  float: center;
+	position: absolute;
+	left: 50%;
+	top: 35%;
+  height: 600px;
+	width: 900px;
+	padding: 20px;
+	margin-left: -450px;
+	margin-top: -236px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	background-color: white;
+}
+.whiteboxstore
+{
+  float: center;
+	position: absolute;
+	left: 50%;
+	top: 35%;
+  height: 500;
+	width: 900px;
+	padding: 20px;
+	margin-left: -450px;
+	margin-top: -236px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	background-color: white;
+}
+.abouttitle
+{
+  position: relative;
+  top: -30;
+}
 .textsidepos
 {
-  position:absolute;
+  position: relative;
   left: 180px;
+  top: -130px;
+  width: 700px;
+}
+.textsidepos1
+{
+  position: relative;
+  left: 280px;
+  top: -235px;
+  width: 625px;
+}
+.textsidepos2
+{
+  position: relative;
+  left: 280px;
+  top: -300px;
+  width: 625px;
 }
 .textimg
 {
@@ -237,9 +289,22 @@ div.footerlinkcolumnone
 }
 .textimg2
 {
-  width: 300px;
-  height: 300px;
-  float: center;
+  position: relative;
+  left: 0px;
+  top: 20px;
+  width: 250px;
+  height: 250px;
+  color: white;
+  border-style: solid;
+  border-color: black;
+}
+.textimg3
+{
+  position: relative;
+  left: 0px;
+  top: -50px;
+  width: 250px;
+  height: 250px;
   color: white;
   border-style: solid;
   border-color: black;
@@ -253,12 +318,109 @@ div.footerlinkcolumnone
 }
 .itemone
 {
-
+  position: relative;
 }
 .itemtwo
 {
-
+  position: relative;
+  left: 320;
+  top: -475;
 }
+.itemthree
+{
+  position: relative;
+  left: 650;
+  top: -945;
+}
+
+.imgsizer
+{
+  position: relative;
+  width: 180;
+  height: 180;
+  border-style: solid;
+  background-color: black;
+}
+
+.iconsadam
+{
+  position: relative;
+  top: -140;
+  left: -60;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.iconsadam ul
+{
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+}
+.iconsadam ul li
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #d2d5db;
+}
+.iconsadam ul li a
+{
+  color: black;
+  text-shadow: 2px 2px white;
+  font-size: 25px;
+}
+.iconsadam ul li a i
+{
+  line-height: 50px;
+}
+
+.iconsandrew
+{
+  position: relative;
+  top: -210;
+  left: -60;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.iconsandrew ul
+{
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+}
+.iconsandrew ul li
+{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #d2d5db;
+}
+.iconsandrew ul li a
+{
+  color: black;
+  text-shadow: 2px 2px white;
+  font-size: 25px;
+}
+.iconsandrew ul li a i
+{
+  line-height: 50px;
+}
+
+.CEO
+{
+  position: relative;
+  top: -50;
+}
+.webdesign
+{
+  position: relative;
+  top: -110;
+}
+
 @-webkit-keyframes glow
 {
   from {
