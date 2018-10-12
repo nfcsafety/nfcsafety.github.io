@@ -316,6 +316,7 @@ div.footerlinkcolumnone
   left: 110px;
   top: -92px;
 }
+
 .itemone
 {
   position: relative;
@@ -323,19 +324,35 @@ div.footerlinkcolumnone
 .itemtwo
 {
   position: relative;
+  left: 220;
+  top: -422;
+}
+.itemthree
+{
+  position: relative;
+  left: 440;
+  top: -845;
+}
+.itemfour
+{
+  position: relative;
+}
+.itemfive
+{
+  position: relative;
   left: 320;
   top: -475;
 }
-.itemthree
+.itemsix
 {
   position: relative;
   left: 650;
   top: -945;
 }
 
+
 .imgsizer
 {
-  position: relative;
   width: 180;
   height: 180;
   border-style: solid;
