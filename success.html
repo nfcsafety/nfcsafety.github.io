@@ -1,0 +1,125 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <link rel="icon" href="./icon.png">
+  <title>Home</Title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="./icons/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="StylesheetMain.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity= "sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+$(window).on('scroll', function(){
+if($(window).scrollTop()) {
+$('nav').addClass('scroll');
+}
+else
+{
+$('nav').removeClass('scroll');
+}
+})
+</script>
+</head>
+
+<body>
+  <section class="sec1">
+    <div class="wrapper"></div>
+    <script>
+    for (var i = 0; i < 250; i++) {
+      create(i);
+    }
+
+    function create(i) {
+      var width = Math.random() * 8;
+      var height = width * 0.4;
+      var colourIdx = Math.ceil(Math.random() * 3);
+      var colour = "red";
+      switch(colourIdx) {
+        case 1:
+          colour = "yellow";
+          break;
+        case 2:
+          colour = "blue";
+          break;
+        default:
+          colour = "red";
+      }
+      $('<div class="confetti-'+i+' '+colour+'"></div>').css({
+        "width" : width+"px",
+        "height" : height+"px",
+        "top" : -Math.random()*20+"%",
+        "left" : Math.random()*100+"%",
+        "opacity" : Math.random()+0.5,
+        "transform" : "rotate("+Math.random()*360+"deg)"
+      }).appendTo('.wrapper');
+
+      drop(i);
+    }
+
+    function drop(x) {
+      $('.confetti-'+x).animate({
+        top: "100%",
+        left: "+="+Math.random()*15+"%"
+      }, Math.random()*3000 + 3000, function() {
+        reset(x);
+      });
+    }
+
+    function reset(x) {
+      $('.confetti-'+x).animate({
+        "top" : -Math.random()*20+"%",
+        "left" : "-="+Math.random()*15+"%"
+      }, 0, function() {
+        drop(x);
+      });
+    }
+    </script>
+<div class="whiteboxhome">
+  <img class="textimg" src="logo.png">
+  <div class="textsidepos">
+    <u><b style= "font-size: 50px">CONGRATULATIONS</b></u>
+      <p>Your NFCsafety purchase was a success and we can confirm that your order will be with you shortly!
+      If you have any queries or problems with your order, feel free to contact us at nfcsafetycompany@gmail.com. </p>
+</div>
+</div>
+</section>
+
+<nav>
+<div class="logo" id="navbar"><div class="logocolor">
+<a href=""><h1><B>NFC/</B><div class="logoaltfont">Safety</div></H1></a>
+</div></div>
+<ul>
+<li><a href="./index.html">Home</a></li>
+<li><a href="./About.html">About</a></li>
+<li><a href="./Store.html">Store</a></li>
+<li><a href="./Social.html">Social</a></li>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+</ul>
+</nav>
+<div class="footerlinks">
+<div class="footericons">
+  <ul>
+    <li><a href="https://www.facebook.com/NFC-Safety-282002279192468/" target="blank"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://www.instagram.com/nfc_safety/" target="blank"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://www.youtube.com/channel/UC04wNNZBd4PwgT9WNVFE28w" target="blank"><i class="fa fa-youtube"></i></a></li>
+    <li><a href="#" target="blank"><i class="fa fa-spotify"></i></a></li>
+  </ul>
+</div>
+<div class="footerlinkcolumnone">
+  <ul>
+  <li><a href="./index.html">Home</a></li>
+  <li><a href="./About.html">About</a></li>
+  <li><a href="./Store.html">Store</a></li>
+  <li><a href="./Social.html">Social</a></li>
+</ul>
+<div class="copyright">
+<h4>Copyright 2018 :- NFCsafety</h4>
+</div>
+</div>
+</div>
+</body>

@@ -244,20 +244,54 @@ div.footerlinkcolumnone
   float: center;
 	position: absolute;
 	left: 50%;
-	top: 35%;
-  height: 500;
+	top: 30%;
+  height: 550px;
 	width: 900px;
-	padding: 20px;
 	margin-left: -450px;
-	margin-top: -236px;
+	margin-top: -150px;
 	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
 	background-color: white;
+}
+.whiteboxsocial
+{
+  float: center;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+  height: 500px;
+	width: 900px;
+	margin-left: -450px;
+	margin-top: -150px;
+	background-color: white;
+}
+.socialtextpos
+{
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+.socialpos-f
+{
+  position: relative;
+  padding: 20px;
 }
 .abouttitle
 {
   position: relative;
   top: -30;
+}
+.titlepos
+{
+  position: absolute;
+  left: 20;
+}
+.titlepos2
+{
+  position: absolute;
+  left: 50;
 }
 .textsidepos
 {
@@ -277,7 +311,7 @@ div.footerlinkcolumnone
 {
   position: relative;
   left: 280px;
-  top: -300px;
+  top: -350px;
   width: 625px;
 }
 .textimg
@@ -302,7 +336,7 @@ div.footerlinkcolumnone
 {
   position: relative;
   left: 0px;
-  top: -50px;
+  top: -90px;
   width: 250px;
   height: 250px;
   color: white;
@@ -316,7 +350,11 @@ div.footerlinkcolumnone
   left: 110px;
   top: -92px;
 }
-
+.items
+{
+  position: relative;
+  left: 20px;
+}
 .itemone
 {
   position: relative;
@@ -325,7 +363,7 @@ div.footerlinkcolumnone
 {
   position: relative;
   left: 220;
-  top: -422;
+  top: -435;
 }
 .itemthree
 {
@@ -362,7 +400,7 @@ div.footerlinkcolumnone
 .iconsadam
 {
   position: relative;
-  top: -140;
+  top: -175;
   left: -60;
   width: 100%;
   height: auto;
@@ -396,7 +434,7 @@ div.footerlinkcolumnone
 .iconsandrew
 {
   position: relative;
-  top: -210;
+  top: -322;
   left: -60;
   width: 100%;
   height: auto;
@@ -446,4 +484,112 @@ div.footerlinkcolumnone
   to {
     text-shadow: 0 0 30px #d1feff;
   }
+}
+
+
+/* Slideshow container */
+.slideshow-container
+{
+  color: black;
+  max-width: 180px;
+  position: relative;
+  margin: 0;
+  border-style: solid;
+  border-color: black;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 0px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: lightgrey;
+}
+
+/* Caption text */
+.text {
+  color: #black;
+  font-size: 15px;
+  padding: 5px 0px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-weight: bold;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
+[class|="confetti"] {
+  position: absolute;
+}
+
+.red {
+  background-color: #E94A3F;
+}
+
+.yellow {
+  background-color: #FAA040;
+}
+
+.blue {
+  background-color: #5FC9F5;
+}
+.socialtextpos a
+{
+  color: black;
 }

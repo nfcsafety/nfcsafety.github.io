@@ -21,153 +21,125 @@ $('nav').removeClass('scroll');
 })
 </script>
 </head>
+
 <body>
 
 <section class="sec1">
   <div class="whiteboxstore">
+    <div class="items">
+  <h1><u>Store</u></h1>
 
     <div class="itemone">
-      <u><b style= "font-size: 20px">Stand Alone Tag</b></u>
-      <br>
+      <div class="titlepos"><u><b style= "font-size: 20px">   Stand Alone Tag</b></u></div>
+      <br><br>
       <img class="imgsizer" src= "standard tag.jpg" alt="404">
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="TVPV6VGRX9BRU">
-      <table>
-        <tr><td><input type="hidden" name="on0" value="Pack">Pack</td></tr><tr><td><select name="os0">
-          <option value="Single">Single £4.00 GBP</option>
-          <option value="Double">Double £7.50 GBP</option>
-          <option value="Tripple">Tripple £10.00 GBP</option>
-          <option value="X Pack (10)">X Pack (10) £32.00 GBP</option>
-        </select> </td></tr>
-        <tr><td><input type="hidden" name="on1" value="Programming">Programming</td></tr><tr><td><select name="os1">
-          <option value="Address">Address </option>
-          <option value="Phone Number">Phone Number </option>
-          <option value="Social Links">Social Links </option>
-          <option value="Message Pop-Up">Message Pop-Up </option>
-        </select> </td></tr>
-        <tr><td><input type="hidden" name="on2" value="Programmed Information">Programmed Information</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
-      </table>
-      <input type="hidden" name="currency_code" value="GBP">
-      <input type="image" width="125" height="55" src="https://www.nfcsafety.gq/Buy.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-    </form>
-   </div>
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="HEE8HRNTMZA8Y">
+        <table>
+          <tr><td><input type="hidden" name="on0" value="Pack Type">Pack Type</td></tr><tr><td><select name="os0">
+            <option value="Single">Single £4.00 GBP</option>
+            <option value="Double">Double £8.00 GBP</option>
+            <option value="Triple">Triple £11.00 GBP</option>
+            <option value="The X Pack">The X Pack £38.00 GBP</option>
+          </select> </td></tr>
+          <tr><td><input type="hidden" name="on1" value="Tag-Type">Tag-Type</td></tr><tr><td><select name="os1">
+            <option value="Phone Number">Phone Number </option>
+            <option value="Social Media">Social Media </option>
+            <option value="On-Screen Message">On-Screen Message </option>
+          </select> </td></tr>
+          <tr><td><input type="hidden" name="on2" value="Programmed Information">Programmed Information</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
+        </table>
+        <input type="hidden" name="currency_code" value="GBP">
+        <input type="image" width="125" height="55" src="./addtocart.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+      </form>
 
    <div class="itemtwo">
-    <u><b style= "font-size: 20px">Bracelet</b></u>
-    <br>
-    <img class="imgsizer" src= "bracelet tag.jpg" alt="404">
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="TVPV6VGRX9BRU">
-    <table>
-      <tr><td><input type="hidden" name="on0" value="Pack">Pack</td></tr><tr><td><select name="os0">
-        <option value="Single">Single £4.00 GBP</option>
-        <option value="Double">Double £7.50 GBP</option>
-        <option value="Tripple">Tripple £10.00 GBP</option>
-        <option value="X Pack (10)">X Pack (10) £32.00 GBP</option>
-      </select> </td></tr>
-      <tr><td><input type="hidden" name="on1" value="Programming">Programming</td></tr><tr><td><select name="os1">
-        <option value="Address">Address </option>
-        <option value="Phone Number">Phone Number </option>
-        <option value="Social Links">Social Links </option>
-        <option value="Message Pop-Up">Message Pop-Up </option>
-      </select> </td></tr>
-      <tr><td><input type="hidden" name="on2" value="Programmed Information">Programmed Information</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
-    </table>
-    <input type="hidden" name="currency_code" value="GBP">
-    <input type="image" width="125" height="55" src="https://www.nfcsafety.gq/Buy.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-  </form>
+    <div class="titlepos2"><u><b style= "font-size: 20px">Bracelet</b></u></div>
+    <br><br>
+
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img1.jpg" style="width:100%">
+    <div class="text">Red</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img2.jpg" style="width:100%">
+    <div class="text">Blue</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Yellow</div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 
-<div class="itemthree">
-  <u><b style= "font-size: 20px">Keychain</b></u>
-  <br>
-  <img class="imgsizer" src= "keychain tag.jpg" alt="404">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="TVPV6VGRX9BRU">
-  <table>
-    <tr><td><input type="hidden" name="on0" value="Pack">Pack</td></tr><tr><td><select name="os0">
-      <option value="Single">Single £4.00 GBP</option>
-      <option value="Double">Double £7.50 GBP</option>
-      <option value="Tripple">Tripple £10.00 GBP</option>
-      <option value="X Pack (10)">X Pack (10) £32.00 GBP</option>
-    </select> </td></tr>
-    <tr><td><input type="hidden" name="on1" value="Programming">Programming</td></tr><tr><td><select name="os1">
-      <option value="Address">Address </option>
-      <option value="Phone Number">Phone Number </option>
-      <option value="Social Links">Social Links </option>
-      <option value="Message Pop-Up">Message Pop-Up </option>
-    </select> </td></tr>
-    <tr><td><input type="hidden" name="on2" value="Programmed Information">Programmed Information</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
-  </table>
-  <input type="hidden" name="currency_code" value="GBP">
-  <input type="image" width="125" height="55" src="https://www.nfcsafety.gq/Buy.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-  <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
 
-<div class="itemfour">
-<u><b style= "font-size: 20px">Necklace</b></u>
-<br>
-<img class="imgsizer" src= "necklace tag.jpg" alt="404">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="TVPV6VGRX9BRU">
+<input type="hidden" name="hosted_button_id" value="P4REZVHHJ7FAN">
 <table>
-  <tr><td><input type="hidden" name="on0" value="Pack">Pack</td></tr><tr><td><select name="os0">
-    <option value="Single">Single £4.00 GBP</option>
-    <option value="Double">Double £7.50 GBP</option>
-    <option value="Tripple">Tripple £10.00 GBP</option>
-    <option value="X Pack (10)">X Pack (10) £32.00 GBP</option>
-  </select> </td></tr>
-  <tr><td><input type="hidden" name="on1" value="Programming">Programming</td></tr><tr><td><select name="os1">
-    <option value="Address">Address </option>
-    <option value="Phone Number">Phone Number </option>
-    <option value="Social Links">Social Links </option>
-    <option value="Message Pop-Up">Message Pop-Up </option>
-  </select> </td></tr>
-  <tr><td><input type="hidden" name="on2" value="Programmed Information">Programmed Information</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
+<tr><td><input type="hidden" name="on0" value="Pack Size">Pack Size</td></tr><tr><td><select name="os0">
+	<option value="Single">Single £5.00 GBP</option>
+	<option value="Double">Double £10.00 GBP</option>
+	<option value="Triple">Triple £14.00 GBP</option>
+	<option value="X Pack">X Pack £38.00 GBP</option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on1" value="Colour">Colour</td></tr><tr><td><select name="os1">
+	<option value="Red">Red </option>
+	<option value="Blue">Blue </option>
+	<option value="Yellow">Yellow </option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on2" value="Tag-Type">Tag-Type</td></tr><tr><td><select name="os2">
+	<option value="Phone Number">Phone Number </option>
+	<option value="Social Media">Social Media </option>
+	<option value="On-Screen Message">On-Screen Message </option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on3" value="Programmed Information">Programmed Information</td></tr><tr><td><input type="text" name="os3" maxlength="200"></td></tr>
 </table>
 <input type="hidden" name="currency_code" value="GBP">
-<input type="image" width="125" height="55" src="https://www.nfcsafety.gq/Buy.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<input type="image" src="./addtocart.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 </form>
-</div>
 
-<div class="itemfive">
-  <u><b style= "font-size: 20px">Stickers</b></u>
-  <br>
-  <img class="imgsizer" src= "sticker tag.jpg" alt="404">
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="TVPV6VGRX9BRU">
-  <table>
-    <tr><td><input type="hidden" name="on0" value="Pack">Pack</td></tr><tr><td><select name="os0">
-      <option value="Single">Single £4.00 GBP</option>
-      <option value="Double">Double £7.50 GBP</option>
-      <option value="Tripple">Tripple £10.00 GBP</option>
-      <option value="X Pack (10)">X Pack (10) £32.00 GBP</option>
-    </select> </td></tr>
-    <tr><td><input type="hidden" name="on1" value="Programming">Programming</td></tr><tr><td><select name="os1">
-      <option value="Address">Address </option>
-      <option value="Phone Number">Phone Number </option>
-      <option value="Social Links">Social Links </option>
-      <option value="Message Pop-Up">Message Pop-Up </option>
-    </select> </td></tr>
-    <tr><td><input type="hidden" name="on2" value="Programmed Information">Programmed Information</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
-  </table>
-  <input type="hidden" name="currency_code" value="GBP">
-  <input type="image" width="125" height="55" src="https://www.nfcsafety.gq/Buy.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-  <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-</div>
+</div></div></div>
 
-
-</div>
 </section>
 
 <nav>
@@ -191,9 +163,9 @@ $('nav').removeClass('scroll');
 <div class="footerlinks">
 <div class="footericons">
   <ul>
-    <li><a href="#" target="blank"><i class="fa fa-facebook"></i></a></li>
-    <li><a href="#" target="blank"><i class="fa fa-instagram"></i></a></li>
-    <li><a href="#" target="blank"><i class="fa fa-youtube"></i></a></li>
+    <li><a href="https://www.facebook.com/NFC-Safety-282002279192468/" target="blank"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://www.instagram.com/nfc_safety/" target="blank"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://www.youtube.com/channel/UC04wNNZBd4PwgT9WNVFE28w" target="blank"><i class="fa fa-youtube"></i></a></li>
     <li><a href="#" target="blank"><i class="fa fa-spotify"></i></a></li>
   </ul>
 </div>
